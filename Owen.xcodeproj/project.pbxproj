@@ -11,6 +11,7 @@
 		6352C2D023A78D6D00BE011D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6352C2CF23A78D6D00BE011D /* Assets.xcassets */; };
 		6352C2D323A78D6D00BE011D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6352C2D123A78D6D00BE011D /* Main.storyboard */; };
 		6352C2DF23A7B0EF00BE011D /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352C2DE23A7B0EF00BE011D /* Bindable.swift */; };
+		6385529823A894960084741E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6385529723A894960084741E /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		6352C2D423A78D6D00BE011D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6352C2D523A78D6D00BE011D /* Owen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Owen.entitlements; sourceTree = "<group>"; };
 		6352C2DE23A7B0EF00BE011D /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		6385529623A8899C0084741E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6385529723A894960084741E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,8 @@
 		6352C2BF23A78D6B00BE011D = {
 			isa = PBXGroup;
 			children = (
+				6385529723A894960084741E /* LICENSE */,
+				6385529623A8899C0084741E /* README.md */,
 				6352C2CA23A78D6C00BE011D /* Owen */,
 				6352C2C923A78D6C00BE011D /* Products */,
 			);
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6385529823A894960084741E /* LICENSE in Resources */,
 				6352C2D023A78D6D00BE011D /* Assets.xcassets in Resources */,
 				6352C2D323A78D6D00BE011D /* Main.storyboard in Resources */,
 			);
