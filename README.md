@@ -1,4 +1,4 @@
-![Owen app icon](/AppIcon.png)
+![Owen app thumbnail](/Thumbnail.png)
 
 #  Owen
 
