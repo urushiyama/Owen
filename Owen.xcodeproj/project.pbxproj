@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6352C2CC23A78D6C00BE011D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352C2CB23A78D6C00BE011D /* AppDelegate.swift */; };
-		6352C2CE23A78D6C00BE011D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352C2CD23A78D6C00BE011D /* ViewController.swift */; };
 		6352C2D023A78D6D00BE011D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6352C2CF23A78D6D00BE011D /* Assets.xcassets */; };
 		6352C2D323A78D6D00BE011D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6352C2D123A78D6D00BE011D /* Main.storyboard */; };
+		6352C2DF23A7B0EF00BE011D /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352C2DE23A7B0EF00BE011D /* Bindable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6352C2C823A78D6C00BE011D /* Owen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6352C2CB23A78D6C00BE011D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6352C2CD23A78D6C00BE011D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6352C2CF23A78D6D00BE011D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6352C2D223A78D6D00BE011D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6352C2D423A78D6D00BE011D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6352C2D523A78D6D00BE011D /* Owen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Owen.entitlements; sourceTree = "<group>"; };
+		6352C2DE23A7B0EF00BE011D /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				6352C2CB23A78D6C00BE011D /* AppDelegate.swift */,
-				6352C2CD23A78D6C00BE011D /* ViewController.swift */,
 				6352C2CF23A78D6D00BE011D /* Assets.xcassets */,
 				6352C2D123A78D6D00BE011D /* Main.storyboard */,
 				6352C2D423A78D6D00BE011D /* Info.plist */,
 				6352C2D523A78D6D00BE011D /* Owen.entitlements */,
+				6352C2DE23A7B0EF00BE011D /* Bindable.swift */,
 			);
 			path = Owen;
 			sourceTree = "<group>";
@@ -79,6 +79,8 @@
 			dependencies = (
 			);
 			name = Owen;
+			packageProductDependencies = (
+			);
 			productName = Owen;
 			productReference = 6352C2C823A78D6C00BE011D /* Owen.app */;
 			productType = "com.apple.product-type.application";
@@ -107,6 +109,8 @@
 				Base,
 			);
 			mainGroup = 6352C2BF23A78D6B00BE011D;
+			packageReferences = (
+			);
 			productRefGroup = 6352C2C923A78D6C00BE011D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6352C2CE23A78D6C00BE011D /* ViewController.swift in Sources */,
+				6352C2DF23A7B0EF00BE011D /* Bindable.swift in Sources */,
 				6352C2CC23A78D6C00BE011D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W6B877CY6M;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Owen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W6B877CY6M;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Owen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
