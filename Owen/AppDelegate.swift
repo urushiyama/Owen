@@ -159,7 +159,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     statusItem.menu = statusBarMenu
-    statusItem.button?.title = "Owen"
+    statusItem.button?.image = NSImage(imageLiteralResourceName: "StatusBarIcon")
+//    statusItem.button?.title = "Owen"
     
     $praiseForTypingWords.bind(object: praiseForTypingWordsMenuItem)
     $praiseForEnteringLines.bind(object: praiseForEnteringLinesMenuItem)
